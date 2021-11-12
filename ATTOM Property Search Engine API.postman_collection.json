@@ -11,7 +11,7 @@
 			"name": "Property IDs by LatLon Radius",
 			"request": {
 				"url": {
-					"raw": "https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/snapshot?latitude=39.21523130910493&longitude=-75.62095642089844&radius=1",
+					"raw": "https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/snapshot?latitude=40.8126&longitude=-73.9990&radius=1",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -28,13 +28,13 @@
 					"query": [
 						{
 							"key": "latitude",
-							"value": "39.21523130910493",
+							"value": "40.8126",
 							"equals": true,
 							"description": ""
 						},
 						{
 							"key": "longitude",
-							"value": "-75.62095642089844",
+							"value": "-73.9990",
 							"equals": true,
 							"description": ""
 						},
@@ -51,7 +51,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -70,7 +70,7 @@
 			"name": "Property Snapshots by LatLon Radius",
 			"request": {
 				"url": {
-					"raw": "https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/detail?latitude=39.21523130910493&longitude=-75.62095642089844&radius=2",
+					"raw": "https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/detail?latitude=40.8126&longitude=-73.9990&radius=2",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -87,13 +87,13 @@
 					"query": [
 						{
 							"key": "latitude",
-							"value": "39.21523130910493",
+							"value": "40.8126",
 							"equals": true,
 							"description": ""
 						},
 						{
 							"key": "longitude",
-							"value": "-75.62095642089844",
+							"value": "-73.9990",
 							"equals": true,
 							"description": ""
 						},
@@ -110,7 +110,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -157,7 +157,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -204,7 +204,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -251,7 +251,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -287,13 +287,13 @@
 					"query": [
 						{
 							"key": "address1",
-							"value": "468%20SEQUOIA%20DR",
+							"value": "null",
 							"equals": true,
 							"description": ""
 						},
 						{
 							"key": "address2",
-							"value": "SMYRNA,%20DE%2019977",
+							"value": "null",
 							"equals": true,
 							"description": ""
 						}
@@ -304,7 +304,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -340,7 +340,7 @@
 					"query": [
 						{
 							"key": "postalcode",
-							"value": "19977",
+							"value": "07022",
 							"equals": true,
 							"description": ""
 						},
@@ -352,7 +352,7 @@
 						},
 						{
 							"key": "maxAVMValue",
-							"value": "125000",
+							"value": "900000",
 							"equals": true,
 							"description": ""
 						}
@@ -363,7 +363,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "null"
 					},
 					{
 						"key": "accept",
@@ -399,7 +399,7 @@
 					"query": [
 						{
 							"key": "postalcode",
-							"value": "19977",
+							"value": "07022",
 							"equals": true,
 							"description": ""
 						},
@@ -422,7 +422,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -458,19 +458,19 @@
 					"query": [
 						{
 							"key": "address1",
-							"value": "468%20SEQUOIA%20DR",
+							"value": "null",
 							"equals": true,
 							"description": ""
 						},
 						{
 							"key": "address2",
-							"value": "SMYRNA,%20DE",
+							"value": "null",
 							"equals": true,
 							"description": ""
 						},
 						{
 							"key": "radius",
-							"value": "5",
+							"value": "20",
 							"equals": true,
 							"description": ""
 						}
@@ -481,7 +481,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -528,7 +528,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -570,13 +570,13 @@
 						},
 						{
 							"key": "maxSaleAmt",
-							"value": "250000",
+							"value": "900000",
 							"equals": true,
 							"description": ""
 						},
 						{
 							"key": "postalcode",
-							"value": "19977",
+							"value": "07022",
 							"equals": true,
 							"description": ""
 						},
@@ -593,7 +593,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -612,7 +612,7 @@
 			"name": "Search by Property Type and Beds",
 			"request": {
 				"url": {
-					"raw": "https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?propertytype=apartment&minbeds=1&maxbeds=3",
+					"raw": "https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?propertytype=house&minbeds=1&maxbeds=3",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -629,7 +629,7 @@
 					"query": [
 						{
 							"key": "propertytype",
-							"value": "apartment",
+							"value": "house",
 							"equals": true,
 							"description": ""
 						},
@@ -652,7 +652,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -688,19 +688,19 @@
 					"query": [
 						{
 							"key": "cityname",
-							"value": "smyrna",
+							"value": "fairview",
 							"equals": true,
 							"description": ""
 						},
 						{
 							"key": "minSaleAmt",
-							"value": "100000",
+							"value": "200000",
 							"equals": true,
 							"description": ""
 						},
 						{
 							"key": "maxSaleAmt",
-							"value": "400000",
+							"value": "900000",
 							"equals": true,
 							"description": ""
 						}
@@ -711,7 +711,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -753,7 +753,7 @@
 						},
 						{
 							"key": "fips",
-							"value": "10001",
+							"value": "07022",
 							"equals": true,
 							"description": ""
 						}
@@ -764,7 +764,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -800,7 +800,7 @@
 					"query": [
 						{
 							"key": "postalCode",
-							"value": "19977",
+							"value": "07022",
 							"equals": true,
 							"description": ""
 						},
@@ -823,7 +823,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -859,7 +859,7 @@
 					"query": [
 						{
 							"key": "cityname",
-							"value": "smyrna",
+							"value": "fairview",
 							"equals": true,
 							"description": ""
 						},
@@ -900,7 +900,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
@@ -971,7 +971,7 @@
 				"header": [
 					{
 						"key": "APIKey",
-						"value": "736f1130096aa92549d800921bca8e8c"
+						"value": "f6a01b91b79266a0d336777e6daed275"
 					},
 					{
 						"key": "accept",
